@@ -4,11 +4,24 @@ import Sailfish.Silica 1.0
 CoverBackground {
     Label {
         id: label
-        anchors.centerIn: parent
-        text: qsTr("My Cover")
+        anchors.top: parent.top
+        anchors.horizontalCenter: parent.horizontalCenter
+        anchors.topMargin: 100
+        text: qsTr("Kalimba")
+    }
+    Image {
+        id: bg
+        source: "../html/img/192.png"
+        anchors.horizontalCenter: parent.horizontalCenter
+        fillMode: Image.Pad
+        anchors {
+            margins: 10
+            top: label.bottom
+        }
     }
 
-    CoverActionList {
+
+   /* CoverActionList {
         id: coverAction
 
         CoverAction {
@@ -18,5 +31,5 @@ CoverBackground {
         CoverAction {
             iconSource: "image://theme/icon-cover-pause"
         }
-    }
+    }*/
 }
