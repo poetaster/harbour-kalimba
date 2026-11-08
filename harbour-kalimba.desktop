@@ -13,8 +13,8 @@ Name=kalimba
 
 [X-Sailjail]
 # Replace with your organization as a reverse domain name
-OrganizationName=poetaster.de
+OrganizationName=de.poetaster
 # ApplicationName does not have to be identical to Name
 ApplicationName=kalimba
 # Add the required permissions here
-Permissions=
+Permissions=Audio;UserDirs;
