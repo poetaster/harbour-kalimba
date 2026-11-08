@@ -4,7 +4,7 @@
 Name:       harbour-kalimba
 
 Summary:    A Webview kalimba App
-Version:    0.1.0
+Version:    0.1.1
 Release:    1
 License:    LICENSE
 BuildArch:  noarch
